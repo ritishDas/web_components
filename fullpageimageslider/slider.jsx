@@ -1,6 +1,6 @@
 import {useRef,useEffect} from 'react';
 
-export default function(images){
+export default function({images}){
  const fixer = ()=>{
 const box=images.length*25+(images.length-1)*10;
    const size = (window.innerWidth-box)/2;
