@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Card</title>
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+  <%-include('partials/navbar',{
+		       head:'<h1>Ritish</h1>',
+		       normal:[{a:'google',href:'http://www.google.com'},{a:'google',href:'http://www.google.com'},{a:'google',href:'http://www.google.com'},{a:'google',href:'http://www.google.com'}],
+		       dropdown:[{head:'admin'
+		       ,links:[{a:'google',href:'http://www.google.com'},{a:'google',href:'http://www.google.com'}]},{head:'admin'
+		       ,links:[{a:'google',href:'http://www.google.com'},{a:'google',href:'http://www.google.com'}]}],
+		       imp:[{a:'google',href:'http://www.google.com'},{a:'google',href:'http://www.google.com'}]
+  })%>
+</body>
+</html>
